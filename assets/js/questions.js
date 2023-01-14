@@ -5,7 +5,7 @@ var questions = [
         answer: "array.unshift(element)"
     },
     {
-        question: "How can you remove the last element from an array in JavaScript?",
+        question: "What is the correct syntax for linking a javaScript file to a HTML file?",
         choices: ["<script>", "<js>", "<javascript>", "<scripting>"],
         answer: "<script>"
     },
