@@ -104,6 +104,7 @@ function saveScore(){
     highScores.push(newScore);
     localStorage.setItem("highscores", JSON.stringify(highScores));
     updateHighscores();
+    window.location.href = "highscores.html"
 }
 
 // Update highscores table with initials and past scores 
@@ -117,7 +118,7 @@ function saveScore(){
             // list the initials next to the score in a highscore table
             li.textContent = highscores[i].initials + " - " + highscores[i].score;
             // keep adding to the table of each completed quiz
-            highscoreTable.appendChild("li")
+            highscoreTable.appendChild(li)
         }
     }
  }
