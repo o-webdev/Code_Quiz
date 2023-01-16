@@ -25,6 +25,7 @@ Below was the acceptance criteria of what the end results needed to be:
 
 * The following is an animation of the end results along with a live link to the deployed application:
 ---
+Link: https://omar-ahm.github.io/WK6_Code_Quiz_Challenge/
 
 ![Alt text](assets/08-web-apis-challenge-demo.gif)
 
